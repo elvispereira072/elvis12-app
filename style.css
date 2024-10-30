@@ -1,148 +1,148 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    transition: background-color 0.3s, color 0.3s;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 ul {
-    list-style-type: none; /* Remove os marcadores */
-    padding: 0; /* Remove o padding padrão */
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0; /* Remove o padding padrão */
 }
 
 li:hover {
-    background-color: orangered; /* Cor ao passar o mouse */
+  background-color: orangered; /* Cor ao passar o mouse */
 }
 
 body.dark-mode {
-    background-color: #333;
-    color: #f4f4f4;
+  background-color: #333;
+  color: #f4f4f4;
 }
 
 header {
-    background: linear-gradient(135deg, #333, #444);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #333, #444);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5em;
+  margin: 0;
+  font-size: 2.5em;
 }
 
 header button {
-    background: none;
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 header button:hover {
-    background-color: #444;
-    transform: scale(1.05);
+  background-color: #444;
+  transform: scale(1.05);
 }
 
 nav {
-    background-color: #444;
-    overflow: hidden;
+  background-color: #444;
+  overflow: hidden;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    transition: border-color 0.3s;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
 }
 
 section.dark-mode h2 {
-    border-color: #f4f4f4;
+  border-color: #f4f4f4;
 }
 
 .project, .testimonial {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover, .testimonial:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 body.dark-mode .project, body.dark-mode .testimonial {
-    background-color: #444;
+  background-color: #444;
 }
 
 #contact-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #contact-form label {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #contact-form input, #contact-form textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: border-color 0.3s;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
 }
 
 #contact-form input:focus, #contact-form textarea:focus {
-    border-color: #333;
+  border-color: #333;
 }
 
 #contact-form button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    margin-top: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 #contact-form button:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 footer {
@@ -157,31 +157,32 @@ footer {
 }
 
 @media (max-width: 768px) {
-    nav ul li {
-        display: block; /* Muda o menu para ser vertical em telas menores */
-    }
+  nav ul li {
+      display: block; /* Muda o menu para ser vertical em telas menores */
+  }
 
-    #contact-form {
-        display: flex;
-        flex-direction: column;
-    }
+  #contact-form {
+      display: flex;
+      flex-direction: column;
+  }
 
-    #contact-form input {
-        width: 100%; /* Faz o campo do formulário ocupar toda a largura disponível */
-        margin-right: 0; /* Remove a margem direita */
-        margin-bottom: 10px; /* Adiciona margem inferior */
-    }
+  #contact-form input {
+      width: 100%; /* Faz o campo do formulário ocupar toda a largura disponível */
+      margin-right: 0; /* Remove a margem direita */
+      margin-bottom: 10px; /* Adiciona margem inferior */
+  }
 }
 
 
 .project img,
 .project iframe {
-    max-width: 100%; /* Garante que as imagens e vídeos não ultrapassem a largura do contêiner */
-    height: auto; /* Mantém a proporção das imagens e vídeos */
-    width: 80%; /* Define a largura desejada */
-    margin: 0 auto; /* Centraliza as imagens e vídeos */
-    display: block; /* Garante que as imagens e vídeos sejam blocos para centralização */
+  max-width: 100%; /* Garante que as imagens e vídeos não ultrapassem a largura do contêiner */
+  height: auto; /* Mantém a proporção das imagens e vídeos */
+  width: 80%; /* Define a largura desejada */
+  margin: 0 auto; /* Centraliza as imagens e vídeos */
+  display: block; /* Garante que as imagens e vídeos sejam blocos para centralização */
 }
+
 
 
 
